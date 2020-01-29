@@ -1,0 +1,70 @@
+#main{
+    position: absolute;
+    width:300px ;
+    height: fit-content;
+}
+
+@keyframes my-anim {
+    0%{
+        opacity: 100%;
+    }
+    25%{
+        opacity: 0%;
+    }
+    50%{
+        opacity: 100%;
+    }
+    75%{
+        opacity: 0%;
+    }
+    100%{
+        opacity: 100%;
+    }
+}
+#car{
+    position: absolute;
+    bottom: 0px;
+    left: 0;
+}
+.car{
+    width:100px;
+    height: 150px;
+
+}
+
+.carref{
+    position: absolute;
+    top: 0;
+    left: 0;
+
+}
+#road{
+    width: 300px;
+    height:fit-content;
+}
+#road2img{
+    width: 300px;
+    height:610px;
+}
+#road1img{
+    position: absolute;
+    animation-name: my-anim;
+    animation-duration: 1000ms;
+    animation-iteration-count: infinite;
+    width: 300px;
+    height:100%;
+}
+#gemeOver{
+    position: absolute;
+    text-align: center;
+    color: red;
+    font-family: "Tlwg Typo";
+    right: 0;
+    left: 0;
+    top: 0;
+    margin-top: 200px;
+}
+#gemeOver h4{
+    font-size: 100px;
+    visibility: hidden;
+}
